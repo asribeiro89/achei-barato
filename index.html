@@ -12,4 +12,9 @@ cb.className='card-body';n.className='t';n.textContent=o.t;p.className='drop';
 p.style.color='inherit';p.textContent=o.p;cb.append(n,p);a.append(ph,cb);li.append(a);return li}):
 [Object.assign(document.createElement('li'),{className:'empty',
 textContent:'Nada encontrado. Tente outra palavra, como fritadeira ou sandália.'})]))});
-</script></main><footer><div class="wrap"><p class="footer-brand"><strong>Achei Barato</strong>: curadoria independente de ofertas da Shopee com preço conferido todo dia.</p><p class="disclosure">#publicidade Este site participa do programa de afiliados da Shopee. Podemos receber comissão por compras feitas pelos links, sem custo extra para você.</p></div></footer></body></html>
+</script></main><footer><div class="wrap"><p class="footer-brand"><strong>Achei Barato</strong>: curadoria independente de ofertas da Shopee com preço conferido todo dia.</p><p class="disclosure">#publicidade Este site participa do programa de afiliados da Shopee. Podemos receber comissão por compras feitas pelos links, sem custo extra para você.</p></div></footer><script>(()=>{const p=new URLSearchParams(location.search).get('c'),
+r=document.referrer,c=p||(/instagram\./.test(r)?'ig':/(t\.me|telegram)/.test(r)?'tg':'');
+if(/^[a-z0-9]{1,12}$/.test(c))sessionStorage.setItem('canal',c);
+const k=sessionStorage.getItem('canal');
+if(k)document.querySelectorAll('a.buy').forEach(a=>{const u=new URL(a.href);
+u.searchParams.set('sub_id',u.searchParams.get('sub_id').replace(/^site/,k));a.href=u})})()</script></body></html>
