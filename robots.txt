@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://asribeiro89.github.io/achei-barato/sitemap.xml
